@@ -1,2 +1,18 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. *//* Apply grid properties to the container */
+.holder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    grid-template-rows: repeat(2, 1fr); /* Two equal rows */
+    width: 200px; /* Total size of the grid */
+    height: 200px; /* Total size of the grid */
+    gap: 10px; /* Adjust the gap between grid items */
+}
+
+/* Apply styles to the grid items (optional) */
+.item {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

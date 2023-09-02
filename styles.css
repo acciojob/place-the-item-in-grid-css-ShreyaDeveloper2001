@@ -4,8 +4,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two equal columns */
     grid-template-rows: repeat(2, 1fr); /* Two equal rows */
-    width: 200px; /* Total size of the grid */
-    height: 200px; /* Total size of the grid */
+    width: 100px; /* Total size of the grid */
+    height: 100px; /* Total size of the grid */
     gap: 10px; /* Adjust the gap between grid items */
 }
 
